@@ -1,0 +1,54 @@
+{
+  "name": "genebean-symbolize_hash_keys",
+  "version": "0.1.0",
+  "author": "Gene Liverman",
+  "summary": "Provides functions to symbolize the keys of a hash",
+  "license": "BSD-2-Clause",
+  "source": "https://github.com/genebean/genebean-symbolize_hash_keys.git",
+  "project_page": "https://github.com/genebean/genebean-symbolize_hash_keys",
+  "issues_url": "https://github.com/genebean/genebean-symbolize_hash_keys/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.5.0",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+  "template-ref": "1.5.0-0-gd1b3eca"
+}
